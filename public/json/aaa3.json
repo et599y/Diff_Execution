@@ -1,0 +1,2106 @@
+[
+  {
+    "name": "predict()",
+    "arg": null,
+    "child": [
+      {
+        "name": "_standardize_input_data()",
+        "arg": "1-th kw:key(str)='check_batch_axis',value(bool)='False'",
+        "child": []
+      },
+      {
+        "name": "<listcomp>()",
+        "arg": null,
+        "child": []
+      },
+      {
+        "name": "<listcomp>()",
+        "arg": null,
+        "child": []
+      },
+      {
+        "name": "learning_phase()",
+        "arg": null,
+        "child": [
+          {
+            "name": "get_default_graph()",
+            "arg": null,
+            "child": [
+              {
+                "name": "get_default()",
+                "arg": null,
+                "child": [
+                  {
+                    "name": "get_default()",
+                    "arg": null,
+                    "child": []
+                  },
+                  {
+                    "name": "_GetGlobalDefaultGraph()",
+                    "arg": null,
+                    "child": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "_make_predict_function()",
+        "arg": null,
+        "child": [
+          {
+            "name": "<listcomp>()",
+            "arg": null,
+            "child": []
+          },
+          {
+            "name": "learning_phase()",
+            "arg": null,
+            "child": [
+              {
+                "name": "get_default_graph()",
+                "arg": null,
+                "child": [
+                  {
+                    "name": "get_default()",
+                    "arg": null,
+                    "child": [
+                      {
+                        "name": "get_default()",
+                        "arg": null,
+                        "child": []
+                      },
+                      {
+                        "name": "_GetGlobalDefaultGraph()",
+                        "arg": null,
+                        "child": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "learning_phase()",
+            "arg": null,
+            "child": [
+              {
+                "name": "get_default_graph()",
+                "arg": null,
+                "child": [
+                  {
+                    "name": "get_default()",
+                    "arg": null,
+                    "child": [
+                      {
+                        "name": "get_default()",
+                        "arg": null,
+                        "child": []
+                      },
+                      {
+                        "name": "_GetGlobalDefaultGraph()",
+                        "arg": null,
+                        "child": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "has_arg()",
+            "arg": null,
+            "child": [
+              {
+                "name": "signature()",
+                "arg": null,
+                "child": [
+                  {
+                    "name": "from_callable()",
+                    "arg": "1-th kw:key(str)='follow_wrapped',value(bool)='True'",
+                    "child": [
+                      {
+                        "name": "_signature_from_callable()",
+                        "arg": "1-th kw:key(str)='sigcls',value(type),2-th kw:key(str)='follow_wrapper_chains',value(bool)='True'",
+                        "child": [
+                          {
+                            "name": "unwrap()",
+                            "arg": "1-th kw:key(str)='stop',value(function)",
+                            "child": [
+                              {
+                                "name": "_is_wrapper()",
+                                "arg": null,
+                                "child": []
+                              }
+                            ]
+                          },
+                          {
+                            "name": "isfunction()",
+                            "arg": null,
+                            "child": []
+                          },
+                          {
+                            "name": "_signature_from_function()",
+                            "arg": null,
+                            "child": [
+                              {
+                                "name": "isfunction()",
+                                "arg": null,
+                                "child": []
+                              },
+                              {
+                                "name": "<genexpr>()",
+                                "arg": null,
+                                "child": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "has_arg()",
+            "arg": null,
+            "child": [
+              {
+                "name": "signature()",
+                "arg": null,
+                "child": [
+                  {
+                    "name": "from_callable()",
+                    "arg": "1-th kw:key(str)='follow_wrapped',value(bool)='True'",
+                    "child": [
+                      {
+                        "name": "_signature_from_callable()",
+                        "arg": "1-th kw:key(str)='sigcls',value(type),2-th kw:key(str)='follow_wrapper_chains',value(bool)='True'",
+                        "child": [
+                          {
+                            "name": "unwrap()",
+                            "arg": "1-th kw:key(str)='stop',value(function)",
+                            "child": [
+                              {
+                                "name": "_is_wrapper()",
+                                "arg": null,
+                                "child": []
+                              }
+                            ]
+                          },
+                          {
+                            "name": "isfunction()",
+                            "arg": null,
+                            "child": []
+                          },
+                          {
+                            "name": "_signature_from_function()",
+                            "arg": null,
+                            "child": [
+                              {
+                                "name": "isfunction()",
+                                "arg": null,
+                                "child": []
+                              },
+                              {
+                                "name": "<genexpr>()",
+                                "arg": null,
+                                "child": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "control_dependencies()",
+            "arg": null,
+            "child": [
+              {
+                "name": "executing_eagerly()",
+                "arg": null,
+                "child": [
+                  {
+                    "name": "context_safe()",
+                    "arg": null,
+                    "child": []
+                  },
+                  {
+                    "name": "context()",
+                    "arg": null,
+                    "child": []
+                  },
+                  {
+                    "name": "executing_eagerly()",
+                    "arg": null,
+                    "child": []
+                  }
+                ]
+              },
+              {
+                "name": "get_default_graph()",
+                "arg": null,
+                "child": [
+                  {
+                    "name": "get_default()",
+                    "arg": null,
+                    "child": [
+                      {
+                        "name": "get_default()",
+                        "arg": null,
+                        "child": []
+                      },
+                      {
+                        "name": "_GetGlobalDefaultGraph()",
+                        "arg": null,
+                        "child": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "control_dependencies()",
+                "arg": null,
+                "child": [
+                  {
+                    "name": "_current_control_dependencies()",
+                    "arg": null,
+                    "child": []
+                  },
+                  {
+                    "name": "as_graph_element()",
+                    "arg": null,
+                    "child": [
+                      {
+                        "name": "_as_graph_element_locked()",
+                        "arg": null,
+                        "child": [
+                          {
+                            "name": "_as_graph_element()",
+                            "arg": null,
+                            "child": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "_push_control_dependencies_controller()",
+            "arg": null,
+            "child": []
+          },
+          {
+            "name": "executing_eagerly()",
+            "arg": null,
+            "child": [
+              {
+                "name": "context_safe()",
+                "arg": null,
+                "child": []
+              },
+              {
+                "name": "context()",
+                "arg": null,
+                "child": []
+              },
+              {
+                "name": "executing_eagerly()",
+                "arg": null,
+                "child": []
+              }
+            ]
+          },
+          {
+            "name": "context()",
+            "arg": null,
+            "child": []
+          },
+          {
+            "name": "executing_eagerly()",
+            "arg": null,
+            "child": []
+          },
+          {
+            "name": "_get_graph_from_inputs()",
+            "arg": null,
+            "child": [
+              {
+                "name": "get_default_graph()",
+                "arg": null,
+                "child": [
+                  {
+                    "name": "get_default()",
+                    "arg": null,
+                    "child": [
+                      {
+                        "name": "get_default()",
+                        "arg": null,
+                        "child": []
+                      },
+                      {
+                        "name": "_GetGlobalDefaultGraph()",
+                        "arg": null,
+                        "child": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "get_default_graph()",
+                "arg": null,
+                "child": [
+                  {
+                    "name": "get_default()",
+                    "arg": null,
+                    "child": [
+                      {
+                        "name": "get_default()",
+                        "arg": null,
+                        "child": []
+                      },
+                      {
+                        "name": "_GetGlobalDefaultGraph()",
+                        "arg": null,
+                        "child": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "as_default()",
+            "arg": null,
+            "child": [
+              {
+                "name": "get_controller()",
+                "arg": null,
+                "child": []
+              }
+            ]
+          },
+          {
+            "name": "__enter__()",
+            "arg": null,
+            "child": [
+              {
+                "name": "context()",
+                "arg": null,
+                "child": []
+              },
+              {
+                "name": "push()",
+                "arg": null,
+                "child": []
+              },
+              {
+                "name": "get_controller()",
+                "arg": null,
+                "child": []
+              },
+              {
+                "name": "graph_mode()",
+                "arg": null,
+                "child": [
+                  {
+                    "name": "context()",
+                    "arg": null,
+                    "child": []
+                  },
+                  {
+                    "name": "_mode()",
+                    "arg": null,
+                    "child": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "name_scope()",
+            "arg": null,
+            "child": []
+          },
+          {
+            "name": "__enter__()",
+            "arg": null,
+            "child": [
+              {
+                "name": "as_text()",
+                "arg": null,
+                "child": []
+              },
+              {
+                "name": "unique_name()",
+                "arg": null,
+                "child": []
+              }
+            ]
+          },
+          {
+            "name": "no_op()",
+            "arg": "1-th kw:key(str)='name',value(str)='group_deps/'",
+            "child": [
+              {
+                "name": "_apply_op_helper()",
+                "arg": "1-th kw:key(str)='name',value(str)='group_deps/'",
+                "child": [
+                  {
+                    "name": "_Flatten()",
+                    "arg": null,
+                    "child": [
+                      {
+                        "name": "<listcomp>()",
+                        "arg": null,
+                        "child": []
+                      },
+                      {
+                        "name": "<listcomp>()",
+                        "arg": null,
+                        "child": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "_get_graph_from_inputs()",
+                    "arg": null,
+                    "child": [
+                      {
+                        "name": "get_default_graph()",
+                        "arg": null,
+                        "child": [
+                          {
+                            "name": "get_default()",
+                            "arg": null,
+                            "child": [
+                              {
+                                "name": "get_default()",
+                                "arg": null,
+                                "child": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "get_default_graph()",
+                        "arg": null,
+                        "child": [
+                          {
+                            "name": "get_default()",
+                            "arg": null,
+                            "child": [
+                              {
+                                "name": "get_default()",
+                                "arg": null,
+                                "child": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "as_default()",
+                    "arg": null,
+                    "child": [
+                      {
+                        "name": "get_controller()",
+                        "arg": null,
+                        "child": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "context()",
+                    "arg": null,
+                    "child": []
+                  },
+                  {
+                    "name": "push()",
+                    "arg": null,
+                    "child": []
+                  },
+                  {
+                    "name": "get_controller()",
+                    "arg": null,
+                    "child": []
+                  },
+                  {
+                    "name": "graph_mode()",
+                    "arg": null,
+                    "child": [
+                      {
+                        "name": "context()",
+                        "arg": null,
+                        "child": []
+                      },
+                      {
+                        "name": "_mode()",
+                        "arg": null,
+                        "child": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "context()",
+                    "arg": null,
+                    "child": []
+                  },
+                  {
+                    "name": "executing_eagerly()",
+                    "arg": null,
+                    "child": []
+                  },
+                  {
+                    "name": "_get_graph_from_inputs()",
+                    "arg": null,
+                    "child": [
+                      {
+                        "name": "get_default_graph()",
+                        "arg": null,
+                        "child": [
+                          {
+                            "name": "get_default()",
+                            "arg": null,
+                            "child": [
+                              {
+                                "name": "get_default()",
+                                "arg": null,
+                                "child": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "get_default_graph()",
+                        "arg": null,
+                        "child": [
+                          {
+                            "name": "get_default()",
+                            "arg": null,
+                            "child": [
+                              {
+                                "name": "get_default()",
+                                "arg": null,
+                                "child": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "as_default()",
+                    "arg": null,
+                    "child": [
+                      {
+                        "name": "get_controller()",
+                        "arg": null,
+                        "child": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "__enter__()",
+                    "arg": null,
+                    "child": [
+                      {
+                        "name": "context()",
+                        "arg": null,
+                        "child": []
+                      },
+                      {
+                        "name": "push()",
+                        "arg": null,
+                        "child": []
+                      },
+                      {
+                        "name": "get_controller()",
+                        "arg": null,
+                        "child": []
+                      },
+                      {
+                        "name": "graph_mode()",
+                        "arg": null,
+                        "child": [
+                          {
+                            "name": "context()",
+                            "arg": null,
+                            "child": []
+                          },
+                          {
+                            "name": "_mode()",
+                            "arg": null,
+                            "child": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "name_scope()",
+                    "arg": null,
+                    "child": []
+                  },
+                  {
+                    "name": "__enter__()",
+                    "arg": null,
+                    "child": [
+                      {
+                        "name": "as_text()",
+                        "arg": null,
+                        "child": []
+                      },
+                      {
+                        "name": "name_from_scope_name()",
+                        "arg": null,
+                        "child": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "<listcomp>()",
+                    "arg": null,
+                    "child": []
+                  },
+                  {
+                    "name": "_MaybeColocateWith()",
+                    "arg": null,
+                    "child": []
+                  },
+                  {
+                    "name": "create_op()",
+                    "arg": "1-th kw:key(str)='dtypes' not found in kwdict ,2-th kw:key(str)='name' not found in kwdict ,3-th kw:key(str)='input_types' not found in kwdict ,4-th kw:key(str)='attrs' not found in kwdict ,5-th kw:key(str)='op_def' not found in kwdict ",
+                    "child": [
+                      {
+                        "name": "_tmp_in_graph_mode()",
+                        "arg": null,
+                        "child": [
+                          {
+                            "name": "context_safe()",
+                            "arg": null,
+                            "child": []
+                          },
+                          {
+                            "name": "executing_eagerly()",
+                            "arg": null,
+                            "child": [
+                              {
+                                "name": "context_safe()",
+                                "arg": null,
+                                "child": []
+                              },
+                              {
+                                "name": "context()",
+                                "arg": null,
+                                "child": []
+                              },
+                              {
+                                "name": "executing_eagerly()",
+                                "arg": null,
+                                "child": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "getfullargspec()",
+                        "arg": null,
+                        "child": [
+                          {
+                            "name": "unwrap()",
+                            "arg": null,
+                            "child": [
+                              {
+                                "name": "_has_tf_decorator_attr()",
+                                "arg": null,
+                                "child": []
+                              }
+                            ]
+                          },
+                          {
+                            "name": "getfullargspec()",
+                            "arg": null,
+                            "child": [
+                              {
+                                "name": "_signature_from_callable()",
+                                "arg": "1-th kw:key(str)='follow_wrapper_chains',value(bool)='False',2-th kw:key(str)='skip_bound_arg',value(bool)='False',3-th kw:key(str)='sigcls',value(type)",
+                                "child": [
+                                  {
+                                    "name": "isfunction()",
+                                    "arg": null,
+                                    "child": []
+                                  },
+                                  {
+                                    "name": "_signature_from_function()",
+                                    "arg": null,
+                                    "child": [
+                                      {
+                                        "name": "isfunction()",
+                                        "arg": null,
+                                        "child": []
+                                      },
+                                      {
+                                        "name": "<genexpr>()",
+                                        "arg": null,
+                                        "child": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "ismethod()",
+                        "arg": null,
+                        "child": [
+                          {
+                            "name": "unwrap()",
+                            "arg": null,
+                            "child": [
+                              {
+                                "name": "_has_tf_decorator_attr()",
+                                "arg": null,
+                                "child": []
+                              }
+                            ]
+                          },
+                          {
+                            "name": "ismethod()",
+                            "arg": null,
+                            "child": []
+                          }
+                        ]
+                      },
+                      {
+                        "name": "<listcomp>()",
+                        "arg": null,
+                        "child": []
+                      },
+                      {
+                        "name": "_check_not_finalized()",
+                        "arg": null,
+                        "child": []
+                      },
+                      {
+                        "name": "name_from_scope_name()",
+                        "arg": null,
+                        "child": []
+                      },
+                      {
+                        "name": "_NodeDef()",
+                        "arg": "1-th kw:key(str)='device',value(NoneType),2-th kw:key(str)='attrs',value(dict)",
+                        "child": [
+                          {
+                            "name": "as_bytes()",
+                            "arg": null,
+                            "child": []
+                          },
+                          {
+                            "name": "as_bytes()",
+                            "arg": null,
+                            "child": []
+                          },
+                          {
+                            "name": "iteritems()",
+                            "arg": null,
+                            "child": []
+                          }
+                        ]
+                      },
+                      {
+                        "name": "<listcomp>()",
+                        "arg": null,
+                        "child": []
+                      },
+                      {
+                        "name": "_control_dependencies_for_inputs()",
+                        "arg": null,
+                        "child": [
+                          {
+                            "name": "<listcomp>()",
+                            "arg": null,
+                            "child": []
+                          }
+                        ]
+                      },
+                      {
+                        "name": "_mutation_lock()",
+                        "arg": null,
+                        "child": [
+                          {
+                            "name": "group()",
+                            "arg": null,
+                            "child": [
+                              {
+                                "name": "_validate_group_id()",
+                                "arg": null,
+                                "child": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "acquire()",
+                        "arg": null,
+                        "child": [
+                          {
+                            "name": "_validate_group_id()",
+                            "arg": null,
+                            "child": []
+                          },
+                          {
+                            "name": "_another_group_active()",
+                            "arg": null,
+                            "child": [
+                              {
+                                "name": "<genexpr>()",
+                                "arg": null,
+                                "child": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "<genexpr>()",
+                        "arg": null,
+                        "child": []
+                      },
+                      {
+                        "name": "_next_id()",
+                        "arg": null,
+                        "child": [
+                          {
+                            "name": "_check_not_finalized()",
+                            "arg": null,
+                            "child": []
+                          }
+                        ]
+                      },
+                      {
+                        "name": "extract_stack()",
+                        "arg": null,
+                        "child": []
+                      },
+                      {
+                        "name": "_get_control_flow_context()",
+                        "arg": null,
+                        "child": []
+                      },
+                      {
+                        "name": "_reconstruct_sequence_inputs()",
+                        "arg": null,
+                        "child": []
+                      },
+                      {
+                        "name": "_create_c_op()",
+                        "arg": null,
+                        "child": [
+                          {
+                            "name": "as_text()",
+                            "arg": null,
+                            "child": []
+                          },
+                          {
+                            "name": "as_text()",
+                            "arg": null,
+                            "child": []
+                          },
+                          {
+                            "name": "items()",
+                            "arg": null,
+                            "child": []
+                          }
+                        ]
+                      },
+                      {
+                        "name": "<listcomp>()",
+                        "arg": null,
+                        "child": []
+                      },
+                      {
+                        "name": "<listcomp>()",
+                        "arg": null,
+                        "child": []
+                      },
+                      {
+                        "name": "_add_op()",
+                        "arg": null,
+                        "child": [
+                          {
+                            "name": "_check_not_finalized()",
+                            "arg": null,
+                            "child": []
+                          }
+                        ]
+                      },
+                      {
+                        "name": "_control_flow_post_processing()",
+                        "arg": null,
+                        "child": [
+                          {
+                            "name": "<listcomp>()",
+                            "arg": null,
+                            "child": []
+                          }
+                        ]
+                      },
+                      {
+                        "name": "_create_op_helper()",
+                        "arg": "1-th kw:key(str)='compute_device',value(bool)='True'",
+                        "child": [
+                          {
+                            "name": "_record_op_seen_by_control_dependencies()",
+                            "arg": null,
+                            "child": [
+                              {
+                                "name": "add_op()",
+                                "arg": null,
+                                "child": []
+                              }
+                            ]
+                          },
+                          {
+                            "name": "_apply_device_functions()",
+                            "arg": null,
+                            "child": [
+                              {
+                                "name": "peek_objs()",
+                                "arg": null,
+                                "child": [
+                                  {
+                                    "name": "<genexpr>()",
+                                    "arg": null,
+                                    "child": []
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "_snapshot_device_function_stack_metadata()",
+                                "arg": null,
+                                "child": [
+                                  {
+                                    "name": "peek_traceable_objs()",
+                                    "arg": null,
+                                    "child": []
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "name": "_snapshot_colocation_stack_metadata()",
+                            "arg": null,
+                            "child": [
+                              {
+                                "name": "peek_traceable_objs()",
+                                "arg": null,
+                                "child": []
+                              },
+                              {
+                                "name": "<dictcomp>()",
+                                "arg": null,
+                                "child": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "release()",
+                        "arg": null,
+                        "child": [
+                          {
+                            "name": "_validate_group_id()",
+                            "arg": null,
+                            "child": []
+                          },
+                          {
+                            "name": "notify_all()",
+                            "arg": null,
+                            "child": [
+                              {
+                                "name": "notify()",
+                                "arg": null,
+                                "child": [
+                                  {
+                                    "name": "_is_owned()",
+                                    "arg": null,
+                                    "child": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "__exit__()",
+                    "arg": null,
+                    "child": []
+                  },
+                  {
+                    "name": "__exit__()",
+                    "arg": null,
+                    "child": [
+                      {
+                        "name": "context()",
+                        "arg": null,
+                        "child": []
+                      },
+                      {
+                        "name": "pop()",
+                        "arg": null,
+                        "child": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "context()",
+                    "arg": null,
+                    "child": []
+                  },
+                  {
+                    "name": "pop()",
+                    "arg": null,
+                    "child": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "__exit__()",
+            "arg": null,
+            "child": []
+          },
+          {
+            "name": "__exit__()",
+            "arg": null,
+            "child": [
+              {
+                "name": "context()",
+                "arg": null,
+                "child": []
+              },
+              {
+                "name": "pop()",
+                "arg": null,
+                "child": []
+              }
+            ]
+          },
+          {
+            "name": "_pop_control_dependencies_controller()",
+            "arg": null,
+            "child": []
+          }
+        ]
+      },
+      {
+        "name": "_predict_loop()",
+        "arg": "1-th kw:key(str)='batch_size',value(int)='32',2-th kw:key(str)='verbose',value(int)='0',3-th kw:key(str)='steps',value(NoneType)",
+        "child": [
+          {
+            "name": "_check_num_samples()",
+            "arg": null,
+            "child": []
+          },
+          {
+            "name": "_make_batches()",
+            "arg": null,
+            "child": [
+              {
+                "name": "<listcomp>()",
+                "arg": null,
+                "child": []
+              }
+            ]
+          },
+          {
+            "name": "_slice_arrays()",
+            "arg": null,
+            "child": [
+              {
+                "name": "<listcomp>()",
+                "arg": null,
+                "child": []
+              }
+            ]
+          },
+          {
+            "name": "is_sparse()",
+            "arg": null,
+            "child": []
+          },
+          {
+            "name": "is_sparse()",
+            "arg": null,
+            "child": []
+          },
+          {
+            "name": "get_session()",
+            "arg": null,
+            "child": [
+              {
+                "name": "get_default_session()",
+                "arg": null,
+                "child": [
+                  {
+                    "name": "get_default()",
+                    "arg": null,
+                    "child": []
+                  }
+                ]
+              },
+              {
+                "name": "as_default()",
+                "arg": null,
+                "child": [
+                  {
+                    "name": "get_controller()",
+                    "arg": null,
+                    "child": []
+                  }
+                ]
+              },
+              {
+                "name": "context()",
+                "arg": null,
+                "child": []
+              },
+              {
+                "name": "push()",
+                "arg": null,
+                "child": []
+              },
+              {
+                "name": "get_controller()",
+                "arg": null,
+                "child": []
+              },
+              {
+                "name": "graph_mode()",
+                "arg": null,
+                "child": [
+                  {
+                    "name": "context()",
+                    "arg": null,
+                    "child": []
+                  },
+                  {
+                    "name": "_mode()",
+                    "arg": null,
+                    "child": []
+                  }
+                ]
+              },
+              {
+                "name": "global_variables()",
+                "arg": null,
+                "child": [
+                  {
+                    "name": "get_collection()",
+                    "arg": null,
+                    "child": [
+                      {
+                        "name": "get_default_graph()",
+                        "arg": null,
+                        "child": [
+                          {
+                            "name": "get_default()",
+                            "arg": null,
+                            "child": [
+                              {
+                                "name": "get_default()",
+                                "arg": null,
+                                "child": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "get_collection()",
+                        "arg": null,
+                        "child": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "context()",
+                "arg": null,
+                "child": []
+              },
+              {
+                "name": "pop()",
+                "arg": null,
+                "child": []
+              }
+            ]
+          },
+          {
+            "name": "_run()",
+            "arg": null,
+            "child": [
+              {
+                "name": "flatten_dict_items()",
+                "arg": null,
+                "child": [
+                  {
+                    "name": "iteritems()",
+                    "arg": null,
+                    "child": []
+                  },
+                  {
+                    "name": "IsSequence()",
+                    "arg": null,
+                    "child": []
+                  },
+                  {
+                    "name": "IsSequence()",
+                    "arg": null,
+                    "child": []
+                  }
+                ]
+              },
+              {
+                "name": "_feed_fn()",
+                "arg": null,
+                "child": [
+                  {
+                    "name": "<lambda>()",
+                    "arg": null,
+                    "child": []
+                  }
+                ]
+              },
+              {
+                "name": "as_graph_element()",
+                "arg": "1-th kw:key(str)='allow_tensor',value(bool)='True',2-th kw:key(str)='allow_operation',value(bool)='False'",
+                "child": [
+                  {
+                    "name": "_as_graph_element_locked()",
+                    "arg": null,
+                    "child": [
+                      {
+                        "name": "_as_graph_element()",
+                        "arg": null,
+                        "child": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "asarray()",
+                "arg": "1-th kw:key(str)='dtype',value(type)",
+                "child": []
+              },
+              {
+                "name": "get_shape()",
+                "arg": null,
+                "child": []
+              },
+              {
+                "name": "is_compatible_with()",
+                "arg": null,
+                "child": [
+                  {
+                    "name": "as_shape()",
+                    "arg": null,
+                    "child": [
+                      {
+                        "name": "<listcomp>()",
+                        "arg": null,
+                        "child": [
+                          {
+                            "name": "as_dimension()",
+                            "arg": null,
+                            "child": []
+                          },
+                          {
+                            "name": "as_dimension()",
+                            "arg": null,
+                            "child": []
+                          },
+                          {
+                            "name": "as_dimension()",
+                            "arg": null,
+                            "child": []
+                          },
+                          {
+                            "name": "as_dimension()",
+                            "arg": null,
+                            "child": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "is_compatible_with()",
+                    "arg": null,
+                    "child": [
+                      {
+                        "name": "as_dimension()",
+                        "arg": null,
+                        "child": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "is_compatible_with()",
+                    "arg": null,
+                    "child": [
+                      {
+                        "name": "as_dimension()",
+                        "arg": null,
+                        "child": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "is_compatible_with()",
+                    "arg": null,
+                    "child": [
+                      {
+                        "name": "as_dimension()",
+                        "arg": null,
+                        "child": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "is_compatible_with()",
+                    "arg": null,
+                    "child": [
+                      {
+                        "name": "as_dimension()",
+                        "arg": null,
+                        "child": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "is_feedable()",
+                "arg": null,
+                "child": []
+              },
+              {
+                "name": "as_bytes()",
+                "arg": null,
+                "child": []
+              },
+              {
+                "name": "_feed_fn()",
+                "arg": null,
+                "child": [
+                  {
+                    "name": "<lambda>()",
+                    "arg": null,
+                    "child": []
+                  }
+                ]
+              },
+              {
+                "name": "as_graph_element()",
+                "arg": "1-th kw:key(str)='allow_tensor',value(bool)='True',2-th kw:key(str)='allow_operation',value(bool)='False'",
+                "child": [
+                  {
+                    "name": "_as_graph_element_locked()",
+                    "arg": null,
+                    "child": [
+                      {
+                        "name": "_as_graph_element()",
+                        "arg": null,
+                        "child": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "asarray()",
+                "arg": "1-th kw:key(str)='dtype',value(type)",
+                "child": []
+              },
+              {
+                "name": "get_shape()",
+                "arg": null,
+                "child": []
+              },
+              {
+                "name": "is_compatible_with()",
+                "arg": null,
+                "child": [
+                  {
+                    "name": "as_shape()",
+                    "arg": null,
+                    "child": [
+                      {
+                        "name": "<listcomp>()",
+                        "arg": null,
+                        "child": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "is_feedable()",
+                "arg": null,
+                "child": []
+              },
+              {
+                "name": "as_bytes()",
+                "arg": null,
+                "child": []
+              },
+              {
+                "name": "as_default()",
+                "arg": null,
+                "child": [
+                  {
+                    "name": "get_controller()",
+                    "arg": null,
+                    "child": []
+                  }
+                ]
+              },
+              {
+                "name": "context()",
+                "arg": null,
+                "child": []
+              },
+              {
+                "name": "push()",
+                "arg": null,
+                "child": []
+              },
+              {
+                "name": "get_controller()",
+                "arg": null,
+                "child": []
+              },
+              {
+                "name": "graph_mode()",
+                "arg": null,
+                "child": [
+                  {
+                    "name": "context()",
+                    "arg": null,
+                    "child": []
+                  },
+                  {
+                    "name": "_mode()",
+                    "arg": null,
+                    "child": []
+                  }
+                ]
+              },
+              {
+                "name": "for_fetch()",
+                "arg": null,
+                "child": [
+                  {
+                    "name": "<listcomp>()",
+                    "arg": null,
+                    "child": [
+                      {
+                        "name": "for_fetch()",
+                        "arg": null,
+                        "child": [
+                          {
+                            "name": "_is_attrs_instance()",
+                            "arg": null,
+                            "child": []
+                          },
+                          {
+                            "name": "<lambda>()",
+                            "arg": null,
+                            "child": []
+                          },
+                          {
+                            "name": "get_default_graph()",
+                            "arg": null,
+                            "child": [
+                              {
+                                "name": "get_default()",
+                                "arg": null,
+                                "child": [
+                                  {
+                                    "name": "get_default()",
+                                    "arg": null,
+                                    "child": []
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "name": "as_graph_element()",
+                            "arg": "1-th kw:key(str)='allow_tensor',value(bool)='True',2-th kw:key(str)='allow_operation',value(bool)='True'",
+                            "child": [
+                              {
+                                "name": "_as_graph_element_locked()",
+                                "arg": null,
+                                "child": [
+                                  {
+                                    "name": "_as_graph_element()",
+                                    "arg": null,
+                                    "child": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "for_fetch()",
+                        "arg": null,
+                        "child": [
+                          {
+                            "name": "_is_attrs_instance()",
+                            "arg": null,
+                            "child": []
+                          },
+                          {
+                            "name": "<lambda>()",
+                            "arg": null,
+                            "child": []
+                          },
+                          {
+                            "name": "get_default_graph()",
+                            "arg": null,
+                            "child": [
+                              {
+                                "name": "get_default()",
+                                "arg": null,
+                                "child": [
+                                  {
+                                    "name": "get_default()",
+                                    "arg": null,
+                                    "child": []
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "name": "as_graph_element()",
+                            "arg": "1-th kw:key(str)='allow_tensor',value(bool)='True',2-th kw:key(str)='allow_operation',value(bool)='True'",
+                            "child": [
+                              {
+                                "name": "_as_graph_element_locked()",
+                                "arg": null,
+                                "child": [
+                                  {
+                                    "name": "_as_graph_element()",
+                                    "arg": null,
+                                    "child": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "_uniquify_fetches()",
+                    "arg": null,
+                    "child": [
+                      {
+                        "name": "unique_fetches()",
+                        "arg": null,
+                        "child": []
+                      },
+                      {
+                        "name": "unique_fetches()",
+                        "arg": null,
+                        "child": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "context()",
+                "arg": null,
+                "child": []
+              },
+              {
+                "name": "pop()",
+                "arg": null,
+                "child": []
+              },
+              {
+                "name": "unique_fetches()",
+                "arg": null,
+                "child": []
+              },
+              {
+                "name": "_assert_fetchable()",
+                "arg": null,
+                "child": [
+                  {
+                    "name": "is_fetchable()",
+                    "arg": null,
+                    "child": []
+                  }
+                ]
+              },
+              {
+                "name": "_assert_fetchable()",
+                "arg": null,
+                "child": [
+                  {
+                    "name": "is_fetchable()",
+                    "arg": null,
+                    "child": []
+                  }
+                ]
+              },
+              {
+                "name": "<listcomp>()",
+                "arg": null,
+                "child": []
+              },
+              {
+                "name": "_update_with_movers()",
+                "arg": null,
+                "child": [
+                  {
+                    "name": "_get_handle_feeder()",
+                    "arg": null,
+                    "child": []
+                  },
+                  {
+                    "name": "_get_handle_feeder()",
+                    "arg": null,
+                    "child": []
+                  }
+                ]
+              },
+              {
+                "name": "fetches()",
+                "arg": null,
+                "child": []
+              },
+              {
+                "name": "targets()",
+                "arg": null,
+                "child": []
+              },
+              {
+                "name": "_do_run()",
+                "arg": null,
+                "child": [
+                  {
+                    "name": "<genexpr>()",
+                    "arg": null,
+                    "child": []
+                  },
+                  {
+                    "name": "_as_tf_output()",
+                    "arg": null,
+                    "child": []
+                  },
+                  {
+                    "name": "_as_tf_output()",
+                    "arg": null,
+                    "child": []
+                  },
+                  {
+                    "name": "<listcomp>()",
+                    "arg": null,
+                    "child": [
+                      {
+                        "name": "_as_tf_output()",
+                        "arg": null,
+                        "child": [
+                          {
+                            "name": "tf_output()",
+                            "arg": null,
+                            "child": [
+                              {
+                                "name": "_swig_getattr()",
+                                "arg": null,
+                                "child": [
+                                  {
+                                    "name": "_swig_getattr_nondynamic()",
+                                    "arg": null,
+                                    "child": []
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "_swig_setattr()",
+                                "arg": null,
+                                "child": [
+                                  {
+                                    "name": "_swig_setattr_nondynamic()",
+                                    "arg": null,
+                                    "child": []
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "_swig_setattr()",
+                                "arg": null,
+                                "child": [
+                                  {
+                                    "name": "_swig_setattr_nondynamic()",
+                                    "arg": null,
+                                    "child": []
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "_swig_setattr()",
+                                "arg": null,
+                                "child": [
+                                  {
+                                    "name": "_swig_setattr_nondynamic()",
+                                    "arg": null,
+                                    "child": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "<listcomp>()",
+                    "arg": null,
+                    "child": []
+                  },
+                  {
+                    "name": "_do_call()",
+                    "arg": null,
+                    "child": [
+                      {
+                        "name": "_extend_graph()",
+                        "arg": null,
+                        "child": [
+                          {
+                            "name": "_session_run_lock()",
+                            "arg": null,
+                            "child": [
+                              {
+                                "name": "group()",
+                                "arg": null,
+                                "child": [
+                                  {
+                                    "name": "_validate_group_id()",
+                                    "arg": null,
+                                    "child": []
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "name": "acquire()",
+                            "arg": null,
+                            "child": [
+                              {
+                                "name": "_validate_group_id()",
+                                "arg": null,
+                                "child": []
+                              },
+                              {
+                                "name": "_another_group_active()",
+                                "arg": null,
+                                "child": [
+                                  {
+                                    "name": "<genexpr>()",
+                                    "arg": null,
+                                    "child": []
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "name": "release()",
+                            "arg": null,
+                            "child": [
+                              {
+                                "name": "_validate_group_id()",
+                                "arg": null,
+                                "child": []
+                              },
+                              {
+                                "name": "notify_all()",
+                                "arg": null,
+                                "child": [
+                                  {
+                                    "name": "notify()",
+                                    "arg": null,
+                                    "child": [
+                                      {
+                                        "name": "_is_owned()",
+                                        "arg": null,
+                                        "child": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "_call_tf_sessionrun()",
+                        "arg": null,
+                        "child": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "build_results()",
+                "arg": null,
+                "child": [
+                  {
+                    "name": "build_results()",
+                    "arg": null,
+                    "child": [
+                      {
+                        "name": "<listcomp>()",
+                        "arg": null,
+                        "child": []
+                      },
+                      {
+                        "name": "build_results()",
+                        "arg": null,
+                        "child": [
+                          {
+                            "name": "<lambda>()",
+                            "arg": null,
+                            "child": []
+                          }
+                        ]
+                      },
+                      {
+                        "name": "<listcomp>()",
+                        "arg": null,
+                        "child": []
+                      },
+                      {
+                        "name": "build_results()",
+                        "arg": null,
+                        "child": [
+                          {
+                            "name": "<lambda>()",
+                            "arg": null,
+                            "child": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "decode_predictions()",
+    "arg": null,
+    "child": [
+      {
+        "name": "get_file()",
+        "arg": "1-th kw:key(str)='cache_subdir',value(str)='models',2-th kw:key(str)='file_hash',value(str)='c2c37ea517e94d9795004a39431a14cb'",
+        "child": [
+          {
+            "name": "join()",
+            "arg": null,
+            "child": [
+              {
+                "name": "splitdrive()",
+                "arg": null,
+                "child": []
+              },
+              {
+                "name": "splitdrive()",
+                "arg": null,
+                "child": []
+              }
+            ]
+          },
+          {
+            "name": "expanduser()",
+            "arg": null,
+            "child": [
+              {
+                "name": "_get_bothseps()",
+                "arg": null,
+                "child": []
+              },
+              {
+                "name": "encodekey()",
+                "arg": null,
+                "child": [
+                  {
+                    "name": "check_str()",
+                    "arg": null,
+                    "child": []
+                  }
+                ]
+              },
+              {
+                "name": "encodekey()",
+                "arg": null,
+                "child": [
+                  {
+                    "name": "check_str()",
+                    "arg": null,
+                    "child": []
+                  }
+                ]
+              },
+              {
+                "name": "encodekey()",
+                "arg": null,
+                "child": [
+                  {
+                    "name": "check_str()",
+                    "arg": null,
+                    "child": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "expanduser()",
+            "arg": null,
+            "child": []
+          },
+          {
+            "name": "join()",
+            "arg": null,
+            "child": [
+              {
+                "name": "splitdrive()",
+                "arg": null,
+                "child": []
+              },
+              {
+                "name": "splitdrive()",
+                "arg": null,
+                "child": []
+              }
+            ]
+          },
+          {
+            "name": "exists()",
+            "arg": null,
+            "child": []
+          },
+          {
+            "name": "join()",
+            "arg": null,
+            "child": [
+              {
+                "name": "splitdrive()",
+                "arg": null,
+                "child": []
+              },
+              {
+                "name": "splitdrive()",
+                "arg": null,
+                "child": []
+              }
+            ]
+          },
+          {
+            "name": "exists()",
+            "arg": null,
+            "child": []
+          },
+          {
+            "name": "validate_file()",
+            "arg": "1-th kw:key(str)='algorithm',value(str)='auto'",
+            "child": [
+              {
+                "name": "_hash_file()",
+                "arg": null,
+                "child": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "load()",
+        "arg": null,
+        "child": [
+          {
+            "name": "decode()",
+            "arg": null,
+            "child": [
+              {
+                "name": "raw_decode()",
+                "arg": "1-th kw:key(str)='idx',value(int)='0'",
+                "child": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "<listcomp>()",
+        "arg": null,
+        "child": []
+      }
+    ]
+  }
+]

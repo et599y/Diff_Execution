@@ -1,0 +1,27 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+/* body {
+  margin: 0 100px;
+  font-family: sans-serif;
+} */
+p.options label {
+  margin-right: 10px;
+}
+p.options input[type=checkbox] {
+  vertical-align: middle;
+}
+textarea#json-input {
+  width: 100%;
+  height: 200px;
+}
+pre#json-renderer {
+  border: 1px solid #aaa;
+  /* width: 50%; */
+}
